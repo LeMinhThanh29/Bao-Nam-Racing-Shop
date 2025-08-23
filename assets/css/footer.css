@@ -1,0 +1,79 @@
+/* Footer */
+footer {
+    padding: 50px 0;
+    color: var(--muted);
+    margin-top: 64px;
+}
+
+.site-footer {
+    background: #0f172a;
+    /* xanh navy đậm */
+    color: #e2e8f0;
+    /* xám sáng */
+    padding: 3rem 1.5rem 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.site-footer a {
+    color: #e2e8f0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: #38bdf8;
+    /* xanh cyan khi hover */
+}
+
+.site-footer h3,
+.site-footer h4 {
+    color: #fff;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.site-footer p {
+    margin: 0.3rem 0;
+}
+
+.site-footer .muted {
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+/* Grid layout */
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-col ul li a::before {
+    content: "› ";
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.footer-logo {
+    width: 100px;
+}
