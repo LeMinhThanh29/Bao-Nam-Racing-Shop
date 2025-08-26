@@ -4,7 +4,7 @@
  * B2: Vào Extensions → Apps Script, dán code này, sửa SPREADSHEET_ID
  * B3: Deploy → New deployment → Web app (Execute as: Me, Access: Anyone)
  */
-const SPREADSHEET_ID = "PUT_YOUR_SHEET_ID_HERE";
+const SPREADSHEET_ID = "1bKCOKnNXpDGgjTDtfVOsy4wrVuPp4elhOVz31PmH2DI";
 
 function doPost(e) {
   try {
@@ -29,8 +29,10 @@ function doPost(e) {
     ];
     sheet.appendRow(row);
 
-    return ContentService.createTextOutput(JSON.stringify({ok:true})).setMimeType(ContentService.MimeType.JSON);
+    return ContentService.createTextOutput(JSON.stringify({ok:true}))
+    .setMimeType(ContentService.MimeType.JSON);
   } catch (err) {
-    return ContentService.createTextOutput(JSON.stringify({ok:false,error:String(err)})).setMimeType(ContentService.MimeType.JSON);
+    return ContentService.createTextOutput(JSON.stringify({ok:false,error:String(err)}))
+    .setMimeType(ContentService.MimeType.JSON);
   }
 }
