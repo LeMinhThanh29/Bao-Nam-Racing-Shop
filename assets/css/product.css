@@ -1,7 +1,3 @@
-
-
-
-
 /* product */
 .product {
   border-radius: 20px;
@@ -21,16 +17,21 @@
 
 .product .image-container {
   position: relative;
+  width: 100%;
   height: 320px;
-  /* chiều cao hình */
+  /* khung cố định */
   border-radius: 20px;
   overflow: hidden;
+  background: #fff;
+  /* nền trắng để đỡ bị hở */
 }
 
 .product .image-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  /* luôn hiển thị hết ảnh */
+  object-position: center;
   display: block;
 }
 
@@ -38,7 +39,8 @@
 .image-container {
   position: relative;
   overflow: hidden;
-  border-radius: 12px; /* bo tròn, không viền vuông */
+  border-radius: 12px;
+  /* bo tròn, không viền vuông */
 }
 
 .image-container::after {
@@ -47,8 +49,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50%; /* phủ nửa dưới */
-  background: linear-gradient(to top, rgb(0, 0, 0), rgba(0,0,0,0));
+  height: 50%;
+  /* phủ nửa dưới */
+  background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   pointer-events: none;
 }
 
@@ -90,5 +93,5 @@
 .product .overlay .price b {
   font-size: 1.3rem;
   color: var(--accent);
-  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
