@@ -140,38 +140,65 @@ document.addEventListener('click', () => {
 });
 
 // === v7: Product specs tooltip at cursor ===
+
 (function () {
   const popup = document.createElement('div');
-  popup.id = 'specPopup'; popup.className = 'spec-popup'; popup.style.display = 'none';
+  popup.id = 'specPopup';
+  popup.className = 'spec-popup';
+  popup.style.display = 'none';
   document.body.appendChild(popup);
-  let activeHTML = '';
-  function show(html) { activeHTML = html; popup.innerHTML = html; popup.style.display = 'block'; }
-  function hide() { popup.style.display = 'none'; activeHTML = ''; }
+
+  function show(html) {
+    popup.innerHTML = html;
+    popup.style.display = 'block';
+  }
+  function hide() {
+    popup.style.display = 'none';
+  }
   function move(e) {
     if (popup.style.display === 'none') return;
     const pad = 14;
-    // set initial to measure
-    popup.style.left = '0px'; popup.style.top = '0px';
+    popup.style.left = '0px';
+    popup.style.top = '0px';
     const rect = popup.getBoundingClientRect();
     let x = e.clientX + pad, y = e.clientY + pad;
     if (x + rect.width > window.innerWidth - pad) x = e.clientX - rect.width - pad;
     if (y + rect.height > window.innerHeight - pad) y = e.clientY - rect.height - pad;
-    popup.style.left = x + 'px'; popup.style.top = y + 'px';
+    popup.style.left = x + 'px';
+    popup.style.top = y + 'px';
   }
-  document.querySelectorAll('.product').forEach(p => {
-    const spec = p.querySelector('.p-spec'); const html = spec ? spec.innerHTML : '';
-    p.addEventListener('mouseenter', (e) => { if (html) { show(html); move(e); } });
-    p.addEventListener('mousemove', move);
-    p.addEventListener('mouseleave', hide);
-    // Mobile tap support
-    p.addEventListener('touchstart', (e) => {
-      if (html) {
-        const t = e.touches[0]; show(html); move({ clientX: t.clientX, clientY: t.clientY });
-      }
-    }, { passive: true });
+
+  const container = document.querySelector('#product-list');
+
+  // Hover / mousemove
+  container.addEventListener('mouseenter', (e) => {
+    const product = e.target.closest('.product');
+    if (!product) return;
+    const spec = product.querySelector('.p-spec');
+    if (spec) show(spec.innerHTML);
+  }, true);
+
+  container.addEventListener('mousemove', (e) => {
+    if (e.target.closest('.product')) move(e);
   });
-  document.addEventListener('touchstart', (e) => {
-    if (!e.target.closest('.product')) hide();
+
+  container.addEventListener('mouseleave', (e) => {
+    if (e.target.closest('.product')) hide();
+  }, true);
+
+  // Touch (mobile)
+  container.addEventListener('touchstart', (e) => {
+    const product = e.target.closest('.product');
+    if (product) {
+      const spec = product.querySelector('.p-spec');
+      if (spec) {
+        const t = e.touches[0];
+        show(spec.innerHTML);
+        move({ clientX: t.clientX, clientY: t.clientY });
+      }
+    } else {
+      hide();
+    }
   }, { passive: true });
 })();
 
