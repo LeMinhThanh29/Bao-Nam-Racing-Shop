@@ -2,11 +2,23 @@
     padding: 10px;
 }
 
+.splide__list {
+    display: flex;
+    align-items: stretch; /* ép tất cả slide cùng cao */
+}
+
+.splide__slide {
+    display: flex; /* để container con stretch */
+}
+
 .review_card_container {
+    flex: 1;
+    display: flex;             /* để .review_card_row stretch */
     border-radius: 5px;
     cursor: pointer;
-    transition: all 1s ease;
+    transition: all 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: #fff;
 }
 
 .review_card_container:hover {
@@ -14,8 +26,12 @@
 }
 
 .review_card_row {
+    flex: 1;                  /* chiếm toàn bộ chiều cao */
+    display: flex;
+    flex-direction: column;   /* chia bố cục dọc */
+    justify-content: space-between;
     max-width: 378px;
-    height: 100%;
+    width: 100%;
     padding: 30px 20px;
     box-sizing: border-box;
 }
@@ -39,6 +55,7 @@
     display: flex;
     justify-content: center;
     border: 2px solid #2c5c4b;
+    flex-shrink: 0;
 }
 
 .review_card_user_avatar img {
@@ -49,6 +66,7 @@
 .review_card_user_content p {
     font-size: 1rem;
     margin: 0;
+    font-weight: 500;
 }
 
 .review_card_user_content span {
@@ -59,6 +77,7 @@
 .review_card_user_review {
     margin-top: 10px;
     padding-bottom: 10px;
+    flex-grow: 1; /* giúp review đẩy chiều cao đều */
 }
 
 .review_card_user_review p {

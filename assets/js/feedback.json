@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Chị Ly",
+        "date": "28/07/2025",
+        "review": "Ship hàng nội thành cả ngày, không còn lo tiền xăng",
+        "avatar": "./assets/image/feedback.jpg",
+        "rating": 4
+    },
+    {
+        "name": "Anh Thịnh",
+        "date": "03/08/2025",
+        "review": "Bảo hành dài, đội ngũ hỗ trợ nhanh, rất đáng tiền",
+        "avatar": "./assets/image/feedback.jpg",
+        "rating": 5
+    },
+    {
+        "name": "Anh Nam",
+        "date": "12/08/2025",
+        "review": "Xe chạy tốt, cảm giác êm và bốc",
+        "avatar": "./assets/image/feedback.jpg",
+        "rating": 5
+    },
+    {
+        "name": "Chị Trang",
+        "date": "23/08/2025",
+        "review": "Tặng nhiều phụ kiện, hình thức thanh toán đa dạng",
+        "avatar": "./assets/image/feedback.jpg",
+        "rating": 5
+    }
+]

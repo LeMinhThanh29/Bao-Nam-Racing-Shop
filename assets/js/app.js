@@ -220,23 +220,6 @@ document.addEventListener('click', () => {
 })();
 
 
-
-var splide = new Splide('.splide', {
-  type: 'loop',
-  perPage: 3,
-  focus: 'center',
-  gap: '1rem',
-  autoplay: true,
-  interval: 3000,
-  pauseOnHover: true,
-  breakpoints: {
-    1024: { perPage: 2 },
-    640: { perPage: 1 },
-  }
-});
-splide.mount();
-
-
 AOS.init({
   once: true,   // chỉ chạy 1 lần duy nhất
   mirror: false // không animate lại khi scroll ngược

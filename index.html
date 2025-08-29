@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="assets/js/products.js" defer></script>
+  <script src="assets/js/feedback.js" defer></script>
   <!-- app.js phải để sau -->
   <script src="assets/js/app.js" defer></script>
 
@@ -179,79 +180,12 @@
     <!-- Splide wrapper -->
     <div class="splide" id="review-carousel" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="splide__track">
-        <ul class="splide__list">
-          <!-- Slide 1 -->
-          <li class="splide__slide">
-            <div class="review_card_container">
-              <div class="review_card_row">
-                <div class="review_card_rating">
-                  <p>⭐⭐⭐⭐⭐</p>
-                </div>
-                <div class="review_card_user_info">
-                  <div class="review_card_user_avatar">
-                    <img src="https://i.pravatar.cc/100?img=1" alt="User 1" />
-                  </div>
-                  <div class="review_card_user_content">
-                    <p>Anh Nam</p>
-                    <span>12/08/2024</span>
-                  </div>
-                </div>
-                <div class="review_card_user_review">
-                  <p>Đi làm 2 tuần mới sạc lại, cảm giác lái êm và bốc.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <!-- Slide 2 -->
-          <li class="splide__slide">
-            <div class="review_card_container">
-              <div class="review_card_row">
-                <div class="review_card_rating">
-                  <p>⭐⭐⭐⭐</p>
-                </div>
-                <div class="review_card_user_info">
-                  <div class="review_card_user_avatar">
-                    <img src="https://i.pravatar.cc/100?img=2" alt="User 2" />
-                  </div>
-                  <div class="review_card_user_content">
-                    <p>Chị Ly</p>
-                    <span>05/07/2024</span>
-                  </div>
-                </div>
-                <div class="review_card_user_review">
-                  <p>Ship hàng nội thành cả ngày, không còn lo tiền xăng.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <!-- Slide 3 -->
-          <li class="splide__slide">
-            <div class="review_card_container">
-              <div class="review_card_row">
-                <div class="review_card_rating">
-                  <p>⭐⭐⭐⭐⭐</p>
-                </div>
-                <div class="review_card_user_info">
-                  <div class="review_card_user_avatar">
-                    <img src="https://i.pravatar.cc/100?img=3" alt="User 3" />
-                  </div>
-                  <div class="review_card_user_content">
-                    <p>Anh Thịnh</p>
-                    <span>28/06/2024</span>
-                  </div>
-                </div>
-                <div class="review_card_user_review">
-                  <p>Bảo hành dài, đội ngũ hỗ trợ nhanh, rất đáng tiền.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-
+        <ul class="splide__list" id="reviewList">
+          <!-- JS sẽ load vào đây -->
         </ul>
       </div>
     </div>
+
 
   </section>
 
@@ -480,9 +414,9 @@
             Email: <a href="mailto:baonamhuynh1411@gmail.com">baonamhuynh1411@gmail.com</a><br>
             Zalo: <a href="https://zalo.me/0798466669" target="_blank" rel="noopener">Chat Zalo</a><br>
             Facebook: <a href="https://www.facebook.com/profile.php?id=61578657786148" target="_blank"
-              rel="noopener">Facebook Page</a><br>
+              rel="noopener">Bảo Nam Racing Shop</a><br>
             TikTok: <a href="https://www.tiktok.com/@bo.nam.racing.sho3?_t=ZS-8zGxEOL3dkG&_r=1" target="_blank"
-              rel="noopener">TikTok Channel</a>
+              rel="noopener">BẢO NAM RACING SHOP</a>
           </p>
           <p class="muted">Giờ làm việc: 7:00 đến 20:00 (Thứ hai đến Chủ nhật)</p>
         </div>
