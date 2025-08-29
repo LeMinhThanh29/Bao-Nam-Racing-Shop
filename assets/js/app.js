@@ -1,6 +1,6 @@
 // === CONFIG (sửa theo dự án của bạn) ===
 const SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycby1iICPfT6v4A91K9s_ZTU-V1CqiLMyZV3A8d5vBZCLyhcm7r8poKkG_f9TJ3Q_0qlDJQ/exec"; // Dán URL Web App sau khi deploy
-const MESSENGER_URL = "https://m.me/baonamracing"; // Thay bằng trang của bạn nếu khác
+const MESSENGER_URL = "https://www.facebook.com/profile.php?id=61578657786148"; // Thay bằng trang của bạn nếu khác
 
 // Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(a => {
