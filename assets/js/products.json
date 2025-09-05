@@ -1,6 +1,20 @@
 [
   {
-    "name": "T71",
+    "name": "LIHAZE V1 Ultra",
+    "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg",
+    "price": "13.500.000₫",
+    "manufacturer": "Trung Quốc",
+    "specs": {
+      "Tốc độ": "50 Km",
+      "Quãng đường": "50 - 75 Km",
+      "Sạc": "6 - 8h",
+      "Phanh": "Phanh đĩa trước và sau xe",
+      "Bình": "48V / 60V / 72V – 20Ah",
+      "Động cơ": "1200W"
+    }
+  },
+  {
+    "name": "TAILG T71",
     "image": "./assets/image/product/tailg-t71.png",
     "price": "26.000.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
@@ -14,7 +28,7 @@
     }
   },
   {
-    "name": "R71",
+    "name": "TAILG R71",
     "image": "./assets/image/product/tailg-r71.webp",
     "price": "20.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
@@ -28,7 +42,7 @@
     }
   },
   {
-    "name": "X51",
+    "name": "TAILG X51",
     "image": "./assets/image/product/tailg X51.png",
     "price": "16.000.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
@@ -42,7 +56,7 @@
     }
   },
   {
-    "name": "F52",
+    "name": "TAILG F52",
     "image": "./assets/image/product/tailg f52.jpg",
     "price": "20.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
@@ -56,7 +70,7 @@
     }
   },
   {
-    "name": "XMEN",
+    "name": "CPI XMEN",
     "image": "./assets/image/product/cpi xmen.webp",
     "price": "16.000.000₫",
     "manufacturer": "Việt Nam",
@@ -112,7 +126,7 @@
     }
   },
   {
-    "name": "V3 Plus",
+    "name": "V3 PLUS",
     "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png",
     "price": "13.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
@@ -140,7 +154,7 @@
     }
   },
   {
-    "name": "GR55",
+    "name": "TAILG GR55",
     "image": "./assets/image/product/tailg-gr55.png",
     "price": "13.900.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
@@ -165,20 +179,6 @@
       "Phanh": "Phanh đĩa trước và sau xe",
       "Bình": "60V27Ah",
       "Động cơ": "1400W"
-    }
-  },
-  {
-    "name": "V1 LIHAZE",
-    "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg",
-    "price": "13.500.000₫",
-    "manufacturer": "Trung Quốc",
-    "specs": {
-      "Tốc độ": "50 Km",
-      "Quãng đường": "50 - 75 Km",
-      "Sạc": "6 - 8h",
-      "Phanh": "Phanh đĩa trước và sau xe",
-      "Bình": "48V / 60V / 72V – 20Ah",
-      "Động cơ": "1200W"
     }
   }
 ]
