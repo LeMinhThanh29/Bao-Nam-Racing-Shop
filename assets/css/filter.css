@@ -1,0 +1,53 @@
+/* Container chung */
+#filter-bar {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* Tabs */
+#tabs {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+#tabs .tab {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 0; /* bỏ bo tròn */
+  background-color: transparent; /* trong suốt, không phồng */
+  color: var(--ink);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  border-bottom: 2px solid transparent; /* gạch dưới khi active */
+}
+
+#tabs .tab:hover {
+  color: var(--brand-2); /* đổi màu chữ khi hover */
+}
+
+#tabs .tab.active {
+  border-bottom: 2px solid var(--brand); /* gạch chân active */
+  color: var(--brand); /* chữ active đổi màu */
+}
+
+
+/* Dropdown Hiệu xe */
+#brandFilter {
+    padding: 8px 14px;
+    border-radius: var(--radius);
+    border: 1px solid var(--muted);
+    font-size: 14px;
+    color: var(--ink);
+    background-color: var(--card);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+

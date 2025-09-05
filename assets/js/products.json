@@ -1,9 +1,27 @@
 [
   {
     "name": "LIHAZE V1 Ultra",
-    "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg",
     "price": "13.500.000₫",
     "manufacturer": "Trung Quốc",
+    "type": "Xe máy điện",
+    "category": "Lihaze",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/tailg-t71.png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
+      }
+    ],
     "specs": {
       "Tốc độ": "50 Km",
       "Quãng đường": "50 - 75 Km",
@@ -15,9 +33,27 @@
   },
   {
     "name": "TAILG T71",
-    "image": "./assets/image/product/tailg-t71.png",
     "price": "26.000.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
+    "type": "Xe đạp điện",
+    "category": "Tailg",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/tailg-t71.png"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/tailg-t71.png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/tailg-t71.png"
+      }
+    ],
     "specs": {
       "Tốc độ": "70 Km",
       "Quãng đường": "120 Km",
@@ -29,9 +65,27 @@
   },
   {
     "name": "TAILG R71",
-    "image": "./assets/image/product/tailg-r71.webp",
     "price": "20.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
+    "type": "Xe đạp điện",
+    "category": "Tailg",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/tailg-r71.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/tailg-r71.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/tailg-r71.webp"
+      }
+    ],
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "90 Km",
@@ -43,9 +97,27 @@
   },
   {
     "name": "TAILG X51",
-    "image": "./assets/image/product/tailg X51.png",
     "price": "16.000.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
+    "type": "Xe đạp điện",
+    "category": "Tailg",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/tailg X51.png"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/tailg X51.png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/tailg X51.png"
+      }
+    ],
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "75 - 80 Km",
@@ -57,9 +129,27 @@
   },
   {
     "name": "TAILG F52",
-    "image": "./assets/image/product/tailg f52.jpg",
     "price": "20.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
+    "type": "Xe máy điện",
+    "category": "Tailg",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/tailg f52.jpg"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/tailg f52.jpg"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/tailg f52.jpg"
+      }
+    ],
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "75 - 80 Km",
@@ -71,9 +161,27 @@
   },
   {
     "name": "CPI XMEN",
-    "image": "./assets/image/product/cpi xmen.webp",
     "price": "16.000.000₫",
     "manufacturer": "Việt Nam",
+    "type": "Xe máy điện",
+    "category": "CPI",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/cpi xmen.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/cpi xmen.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/cpi xmen.webp"
+      }
+    ],
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "75 - 80 Km",
@@ -85,9 +193,27 @@
   },
   {
     "name": "X1",
-    "image": "./assets/image/product/x1-removebg-preview.png",
     "price": "13.600.000₫",
     "manufacturer": "Việt Nam",
+    "type": "Xe máy điện",
+    "category": "Yadea",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/x1-removebg-preview.png"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/x1-removebg-preview.png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/x1-removebg-preview.png"
+      }
+    ],
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "70 Km",
@@ -99,9 +225,27 @@
   },
   {
     "name": "AVA V1",
-    "image": "./assets/image/product/AVA V1 .png",
     "price": "12.500.000₫",
     "manufacturer": "Việt Nam, Trung Quốc",
+    "type": "Xe máy điện",
+    "category": "AVA",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/AVA V1 .png"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/AVA V1 .png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/AVA V1 .png"
+      }
+    ],
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "70 Km",
@@ -113,9 +257,27 @@
   },
   {
     "name": "AZI SPORT",
-    "image": "./assets/image/product/azi_i1i1-removebg-preview.png",
     "price": "8.600.000₫",
     "manufacturer": "Việt Nam",
+    "type": "Xe máy điện",
+    "category": "AZI",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+      }
+    ],
     "specs": {
       "Tốc độ": "46 Km",
       "Quãng đường": "40 - 60Km",
@@ -127,9 +289,27 @@
   },
   {
     "name": "V3 PLUS",
-    "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png",
     "price": "13.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
+    "type": "Xe máy điện",
+    "category": "V3 PLUS",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
+      }
+    ],
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "70 Km",
@@ -141,9 +321,27 @@
   },
   {
     "name": "MST",
-    "image": "./assets/image/product/mst.png",
     "price": "8.800.000₫",
     "manufacturer": "Việt Nam",
+    "type": "Xe máy điện",
+    "category": "MST",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/mst.png"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/mst.png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/mst.png"
+      }
+    ],
     "specs": {
       "Tốc độ": "45 Km",
       "Quãng đường": "50 Km",
@@ -155,9 +353,27 @@
   },
   {
     "name": "TAILG GR55",
-    "image": "./assets/image/product/tailg-gr55.png",
     "price": "13.900.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
+    "type": "Xe máy điện",
+    "category": "TAILG",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/tailg-gr55.png"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/tailg-gr55.png"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/tailg-gr55.png"
+      }
+    ],
     "specs": {
       "Tốc độ": "50 Km",
       "Quãng đường": "70 Km",
@@ -169,9 +385,27 @@
   },
   {
     "name": "Pusan Glk Plus",
-    "image": "./assets/image/product/Pusan GLK Plus.webp",
     "price": "19.000.000₫",
     "manufacturer": "Việt Nam, Nhật",
+    "type": "Xe máy điện",
+    "category": "Pusan",
+    "colors": [
+      {
+        "name": "Đỏ",
+        "hex": "#F5273C",
+        "image": "./assets/image/product/Pusan GLK Plus.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#ffffff",
+        "image": "./assets/image/product/Pusan GLK Plus.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#000000",
+        "image": "./assets/image/product/Pusan GLK Plus.webp"
+      }
+    ],
     "specs": {
       "Tốc độ": "60 Km",
       "Quãng đường": "75 Km",

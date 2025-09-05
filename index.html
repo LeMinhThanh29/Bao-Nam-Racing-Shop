@@ -14,6 +14,7 @@
   <meta name="theme-color" content="#fbbf24" />
   <link rel="icon" href="./assets/image/icon/logo-racingshop.png" />
   <link rel="preconnect" href="https://www.yadea.com.vn" crossorigin>
+  <link rel="stylesheet" href="assets/css/filter.css">
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/product.css" />
   <link rel="stylesheet" href="assets/css/button.css" />
@@ -24,6 +25,8 @@
   <!-- SweetAlert2 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- List.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
   <script src="assets/js/products.js" defer></script>
   <script src="assets/js/feedback.js" defer></script>
   <!-- app.js phải để sau -->
@@ -159,7 +162,24 @@
 
 
     </div>
-    <div id="product-list" class="grid grid-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+    <!-- Container chung cho tabs + dropdown -->
+    <div id="filter-bar">
+      <div id="tabs">
+        <span class="btn btn-primary tab active" data-filter="all">Tất cả</span>
+        <!-- Tab khác sẽ load tự động -->
+      </div>
+
+      <!-- Dropdown Hiệu xe -->
+      <select id="brandFilter">
+        <option value="">Chọn hiệu xe</option>
+      </select>
+    </div>
+
+
+    <div id="product-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <ul class="list grid grid-4"></ul>
+      <ul class="pagination"></ul>
     </div>
   </section>
 
