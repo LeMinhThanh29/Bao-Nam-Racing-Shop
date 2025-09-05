@@ -49,7 +49,9 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
       phone: (fd.get('phone') || '').toString().trim(),
       email: (fd.get('email') || '').toString().trim(),
       model: fd.get('model'),
-      message: (fd.get('message') || '').toString().trim(),
+      // message: (fd.get('message') || '').toString().trim(),
+      date: fd.get('date'),
+      time: fd.get('time'),
       page: location.href, source: 'landing-bnr-separated', userAgent: navigator.userAgent
     };
 
@@ -66,10 +68,36 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if (payload.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(payload.email)) {
       showError('Thông tin không hợp lệ', 'Email chưa hợp lệ'); return;
     }
+    // Validate ngày
+    if (!payload.date) {
+      showError('Thông tin không hợp lệ', 'Vui lòng chọn ngày lái thử');
+      return;
+    }
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const chosenDate = new Date(payload.date);
+    if (chosenDate < today) {
+      showError('Thông tin không hợp lệ', 'Ngày lái thử không được nhỏ hơn ngày hiện tại');
+      return;
+    }
+
+    // Validate giờ
+    if (!payload.time) {
+      showError('Thông tin không hợp lệ', 'Vui lòng chọn khung giờ lái thử');
+      return;
+    }
+    const [hour, minute] = payload.time.split(':').map(Number);
+    const totalMinutes = hour * 60 + minute;
+    const startMinutes = 7 * 60;   // 07:00
+    const endMinutes = 20 * 60;    // 20:00
+    if (totalMinutes < startMinutes || totalMinutes > endMinutes) {
+      showError('Thông tin không hợp lệ', 'Khung giờ lái thử hợp lệ là từ 07:00 đến 20:00');
+      return;
+    }
+
     if (!document.getElementById('consent').checked) {
       showError('Thông tin không hợp lệ', 'Vui lòng đồng ý cho phép liên hệ'); return;
     }
-
     // Backup to localStorage
     try {
       const arr = JSON.parse(localStorage.getItem('bnr_leads') || '[]'); arr.push({ ...payload, ts: new Date().toISOString() });
@@ -105,6 +133,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
       showError("Vui lòng thử lại sau hoặc liên hệ qua Messenger.");
       Swal.close(); // tắt loading
     } else {
+      console.log(payload)
       try {
         await fetch(SHEETS_WEBAPP_URL, {
           method: 'POST',

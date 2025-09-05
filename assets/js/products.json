@@ -3,7 +3,7 @@
     "name": "T71",
     "image": "./assets/image/product/tailg-t71.png",
     "price": "26.000.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Trung Quốc, Việt Nam",
     "specs": {
       "Tốc độ": "70 Km",
       "Quãng đường": "120 Km",
@@ -17,7 +17,7 @@
     "name": "R71",
     "image": "./assets/image/product/tailg-r71.webp",
     "price": "20.600.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Trung Quốc, Việt Nam",
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "90 Km",
@@ -31,7 +31,7 @@
     "name": "X51",
     "image": "./assets/image/product/tailg X51.png",
     "price": "16.000.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Trung Quốc, Việt Nam",
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "75 - 80 Km",
@@ -45,7 +45,7 @@
     "name": "F52",
     "image": "./assets/image/product/tailg f52.jpg",
     "price": "20.600.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Trung Quốc, Việt Nam",
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "75 - 80 Km",
@@ -59,7 +59,7 @@
     "name": "XMEN",
     "image": "./assets/image/product/cpi xmen.webp",
     "price": "16.000.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Việt Nam",
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "75 - 80 Km",
@@ -73,7 +73,7 @@
     "name": "X1",
     "image": "./assets/image/product/x1-removebg-preview.png",
     "price": "13.600.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Việt Nam",
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "70 Km",
@@ -85,9 +85,9 @@
   },
   {
     "name": "AVA V1",
-    "image": "./assets/image/product/ava-v1-removebg-preview (1).png",
+    "image": "./assets/image/product/AVA V1 .png",
     "price": "12.500.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Việt Nam, Trung Quốc",
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "70 Km",
@@ -101,7 +101,7 @@
     "name": "AZI SPORT",
     "image": "./assets/image/product/azi_i1i1-removebg-preview.png",
     "price": "8.600.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Việt Nam",
     "specs": {
       "Tốc độ": "46 Km",
       "Quãng đường": "40 - 60Km",
@@ -115,7 +115,7 @@
     "name": "V3 Plus",
     "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png",
     "price": "13.600.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Trung Quốc, Việt Nam",
     "specs": {
       "Tốc độ": "56 Km",
       "Quãng đường": "70 Km",
@@ -129,7 +129,7 @@
     "name": "MST",
     "image": "./assets/image/product/mst.png",
     "price": "8.800.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Việt Nam",
     "specs": {
       "Tốc độ": "45 Km",
       "Quãng đường": "50 Km",
@@ -143,7 +143,7 @@
     "name": "GR55",
     "image": "./assets/image/product/tailg-gr55.png",
     "price": "13.900.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Trung Quốc, Việt Nam",
     "specs": {
       "Tốc độ": "50 Km",
       "Quãng đường": "70 Km",
@@ -157,7 +157,7 @@
     "name": "Pusan Glk Plus",
     "image": "./assets/image/product/Pusan GLK Plus.webp",
     "price": "19.000.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "manufacturer": "Việt Nam, Nhật",
     "specs": {
       "Tốc độ": "60 Km",
       "Quãng đường": "75 Km",
@@ -170,8 +170,8 @@
   {
     "name": "V1 LIHAZE",
     "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg",
-    "price": "13.900.000₫",
-    "manufacturer": "AZI 🇻🇳",
+    "price": "13.500.000₫",
+    "manufacturer": "Trung Quốc",
     "specs": {
       "Tốc độ": "50 Km",
       "Quãng đường": "50 - 75 Km",

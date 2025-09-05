@@ -928,24 +928,22 @@ table.compare td:nth-child(3) {
   overflow: hidden;
   border-radius: calc(var(--radius) + 2px);
   border: 1px solid rgba(2, 6, 23, .06);
-  aspect-ratio: 16/9;
-  /* giữ tỷ lệ hero (responsive) */
+  aspect-ratio: 16/9;   /* giữ tỷ lệ hero */
   min-height: 400px;
-  /* đảm bảo tối thiểu */
 }
 
 .hero-copy {
   max-width: 680px;
   color: #0f172a;
   position: relative;
-  /* để đè lên slider */
-  z-index: 1;
+  z-index: 2; /* chữ luôn nằm trên */
+  text-align: center;
 }
 
 .hero-slider {
   position: absolute;
   inset: 0;
-  z-index: 0;
+  z-index: 1;
 }
 
 .hero-slider .slide {
@@ -953,25 +951,25 @@ table.compare td:nth-child(3) {
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;      /* luôn hiển thị đủ ảnh */
+  object-position: center;  /* căn giữa */
   opacity: 0;
   transition: opacity 900ms ease;
-  filter: contrast(1.05) saturate(1.05);
+  background-color: #fff;   /* hoặc #000 để đỡ trống */
 }
 
 .hero-slider .slide.active {
   opacity: 1;
+  z-index: 1;
 }
 
 /* Responsive nhỏ */
 @media (max-width: 768px) {
   .hero-bg {
     aspect-ratio: 4/3;
-    /* đứng màn hình dọc thì đổi tỷ lệ */
     min-height: 300px;
   }
 }
-
 
 .hero-overlay {
   position: absolute;
