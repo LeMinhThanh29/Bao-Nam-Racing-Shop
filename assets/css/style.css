@@ -669,7 +669,8 @@ table.compare td:nth-child(3) {
 .promo-left .countdown {
   display: flex;
   gap: .6rem;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* timebox style (in case scoped differently) */
@@ -679,7 +680,8 @@ table.compare td:nth-child(3) {
   border-radius: 12px;
   border: 1px solid #e5e7eb;
   background: #fff;
-  padding: .6rem .5rem
+  padding: .6rem .5rem;
+  flex: 1;
 }
 
 .timebox b {
@@ -923,53 +925,19 @@ table.compare td:nth-child(3) {
 
 
 /* === v12: HERO background slider === */
+/* Khung hero */
 .hero-bg {
   position: relative;
   overflow: hidden;
   border-radius: calc(var(--radius) + 2px);
   border: 1px solid rgba(2, 6, 23, .06);
-  aspect-ratio: 16/9;   /* giữ tỷ lệ hero */
-  min-height: 400px;
+  padding: 0px;
 }
 
-.hero-copy {
-  max-width: 680px;
-  color: #0f172a;
-  position: relative;
-  z-index: 2; /* chữ luôn nằm trên */
-  text-align: center;
+.hero-bg .splide__track {
+  padding: 0px;
 }
 
-.hero-slider {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-}
-
-.hero-slider .slide {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;      /* luôn hiển thị đủ ảnh */
-  object-position: center;  /* căn giữa */
-  opacity: 0;
-  transition: opacity 900ms ease;
-  background-color: #fff;   /* hoặc #000 để đỡ trống */
-}
-
-.hero-slider .slide.active {
-  opacity: 1;
-  z-index: 1;
-}
-
-/* Responsive nhỏ */
-@media (max-width: 768px) {
-  .hero-bg {
-    aspect-ratio: 4/3;
-    min-height: 300px;
-  }
-}
 
 .hero-overlay {
   position: absolute;

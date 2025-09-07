@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             // Khởi tạo Splide sau khi render xong
-            var splide = new Splide('.splide', {
+            var splide = new Splide('#review-carousel', {
                 type: 'loop',
                 perPage: 3,
                 focus: 'center',

@@ -1,0 +1,7 @@
+[
+  { "image": "./assets/image/slider/1.png", "alt": "Yadea Velax" },
+  { "image": "./assets/image/slider/2.png", "alt": "Slider 2" },
+  { "image": "./assets/image/slider/3.jpg", "alt": "Slider 3" },
+  { "image": "./assets/image/slider/4.png", "alt": "Slider 4" },
+  { "image": "./assets/image/slider/5.png", "alt": "Slider 5" }
+]

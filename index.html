@@ -29,6 +29,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
   <script src="assets/js/products.js" defer></script>
   <script src="assets/js/feedback.js" defer></script>
+  <script src="assets/js/banner.js" defer></script>
   <!-- app.js phải để sau -->
   <script src="assets/js/app.js" defer></script>
 
@@ -40,7 +41,7 @@
     <div class="container nav">
       <a href="#" class="logo" aria-label="Bảo Nam Racing Shop">
         <div class="logo-mark" aria-hidden="true">
-          <img src="./assets/image/icon/logo.png" alt="">
+          <img src="./assets/image/icon/logo-racingshop.png" alt="">
         </div>
         <span>Racing Shop</span>
       </a>
@@ -77,15 +78,18 @@
     </div>
   </section>
 
-  <section class="hero container hero-bg" id="top" aria-label="Giới thiệu" data-aos="zoom-out">
-    <div class="hero-slider" aria-hidden="true">
-      <img class="slide active" src="./assets//image//slider/1.png" alt="Yadea Velax">
-      <img class="slide" src="./assets//image//slider/2.png" alt="Slider">
-      <img class="slide" src="./assets//image//slider/3.jpg" alt="Slider">
-      <img class="slide" src="./assets//image//slider/4.png" alt="Slider">
-      <img class="slide" src="./assets//image//slider/5.png" alt="Slider">
+  <section class="hero container hero-bg hero-slider" id="top" aria-label="Giới thiệu">
+    <div id="heroSlider1" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list" id="heroSliderList">
+          <!-- JS render các slide -->
+        </ul>
+      </div>
     </div>
   </section>
+
+
+
 
 
   <!-- Value Proposition / Features -->
@@ -229,16 +233,40 @@
           <li>Nhận order (đặt trước) các dòng xe đạp điện, máy điện.</li>
         </ul>
         <div class="countdown" id="countdown" data-deadline="2025-09-30T23:59:59+07:00" aria-live="polite"></div>
-        <div class="perks-grid grid grid-cols-2 gap-3 md:gap-4 mt-3">
-          <div class="perk bg-white border border-slate-200 rounded-xl p-4 shadow"><b>Miễn phí giao xe </b><span
-              class="muted">Giao xe tận nhà</span></div>
-          <div class="perk bg-white border border-slate-200 rounded-xl p-4 shadow"><b>Tặng bảo dưỡng định kỳ</b><span
-              class="muted">1 lần/1 xe</span></div>
-          <div class="perk bg-white border border-slate-200 rounded-xl p-4 shadow"><b>Hỗ trợ trả góp 0%</b><span
-              class="muted">Duyệt nhanh trong 15 - 30 phút</span></div>
-          <div class="perk bg-white border border-slate-200 rounded-xl p-4 shadow"><b>Ưu đãi phụ kiện</b><span
-              class="muted">Mũ bảo hiểm, áo mưa, voucher</span></div>
+        <div class="perks-grid">
+          <div class="perk">
+            <img src="./assets/image/peek.avif" alt="Miễn phí giao xe">
+            <div class="overlay">
+              <b>Miễn phí giao xe</b>
+              <span>Giao xe tận nhà</span>
+            </div>
+          </div>
+
+          <div class="perk">
+            <img src="./assets/image/peek.avif" alt="Bảo dưỡng">
+            <div class="overlay">
+              <b>Tặng bảo dưỡng định kỳ</b>
+              <span>1 lần/1 xe</span>
+            </div>
+          </div>
+
+          <div class="perk">
+            <img src="./assets/image/peek.avif" alt="Trả góp">
+            <div class="overlay">
+              <b>Hỗ trợ trả góp 0%</b>
+              <span>Duyệt nhanh 15-30 phút</span>
+            </div>
+          </div>
+
+          <div class="perk">
+            <img src="./assets/image/peek.avif" alt="Phụ kiện">
+            <div class="overlay">
+              <b>Ưu đãi phụ kiện</b>
+              <span>Mũ bảo hiểm, áo mưa, voucher</span>
+            </div>
+          </div>
         </div>
+
       </div>
       <div class="card promo-right bg-white rounded-2xl p-6 shadow" id="dang-ky">
         <h3 style="margin-top:0">Đăng ký lái thử / nhận ưu đãi</h3>
@@ -449,7 +477,7 @@
       <div class="footer-grid">
         <!-- Cột thông tin liên hệ -->
         <div class="footer-col">
-          <img src="./assets/image/icon/logo.png" class="footer-logo" alt="">
+          <img src="./assets/image/icon/sanpham.png" class="footer-logo" alt="">
           <h3>Bảo Nam Racing Shop</h3>
           <p>49 Lê Lợi, phường Mỹ Tho, tỉnh Đồng Tháp</p>
           <p>

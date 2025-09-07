@@ -232,21 +232,21 @@ document.addEventListener('click', () => {
 })();
 
 // === v12: hero background slider ===
-(function () {
-  const root = document.querySelector('.hero-slider'); if (!root) return;
-  const slides = Array.from(root.querySelectorAll('.slide')); if (slides.length < 2) return;
-  let i = 0; let timer;
-  const next = () => {
-    slides[i].classList.remove('active');
-    i = (i + 1) % slides.length;
-    slides[i].classList.add('active');
-  };
-  const start = () => { stop(); timer = setInterval(next, 4000); };
-  const stop = () => { if (timer) clearInterval(timer); };
-  start();
-  root.addEventListener('mouseenter', stop);
-  root.addEventListener('mouseleave', start);
-})();
+// (function () {
+//   const root = document.querySelector('.hero-slider'); if (!root) return;
+//   const slides = Array.from(root.querySelectorAll('.slide')); if (slides.length < 2) return;
+//   let i = 0; let timer;
+//   const next = () => {
+//     slides[i].classList.remove('active');
+//     i = (i + 1) % slides.length;
+//     slides[i].classList.add('active');
+//   };
+//   const start = () => { stop(); timer = setInterval(next, 4000); };
+//   const stop = () => { if (timer) clearInterval(timer); };
+//   start();
+//   root.addEventListener('mouseenter', stop);
+//   root.addEventListener('mouseleave', start);
+// })();
 
 
 AOS.init({
