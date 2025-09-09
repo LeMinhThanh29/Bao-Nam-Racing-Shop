@@ -7,18 +7,28 @@
     "category": "Lihaze",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
+        "name": "Hồng nhạt",
+        "hex": "#F8C8DC",
         "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
+        "name": "Đen vàng",
+        "hex": "#000000 / #FFD700",
         "image": "./assets/image/product/tailg-t71.png"
       },
       {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Vàng sữa",
+        "hex": "#FFFFE0",
+        "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
+      },
+      {
+        "name": "Xám đen",
+        "hex": "#36454F",
+        "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
+      },
+      {
+        "name": "Bạc đen",
+        "hex": "#343434",
         "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
       }
     ],
@@ -35,22 +45,17 @@
     "name": "TAILG T71",
     "price": "26.000.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
-    "type": "Xe đạp điện",
+    "type": "Xe máy điện",
     "category": "Tailg",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
+        "name": "Đen Nhám",
+        "hex": "#1C1C1C",
         "image": "./assets/image/product/tailg-t71.png"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
-        "image": "./assets/image/product/tailg-t71.png"
-      },
-      {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Đỏ Bạc Xám",
+        "hex": "#D9534F",
         "image": "./assets/image/product/tailg-t71.png"
       }
     ],
@@ -67,22 +72,17 @@
     "name": "TAILG R71",
     "price": "20.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
-    "type": "Xe đạp điện",
+    "type": "Xe máy điện",
     "category": "Tailg",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
+        "name": "Hồng Phấn",
+        "hex": "#FFC0CB",
         "image": "./assets/image/product/tailg-r71.webp"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
-        "image": "./assets/image/product/tailg-r71.webp"
-      },
-      {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Bạc",
+        "hex": "#C0C0C0",
         "image": "./assets/image/product/tailg-r71.webp"
       }
     ],
@@ -92,7 +92,7 @@
       "Sạc": "8 - 10h",
       "Phanh": "Phanh đĩa trước và sau xe",
       "Bình": "72V22.3Ah",
-      "Động cơ": "1500W"
+      "Động cơ": "1600W"
     }
   },
   {
@@ -103,18 +103,18 @@
     "category": "Tailg",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
+        "name": "Đen Bóng",
+        "hex": "#1C1C1C",
         "image": "./assets/image/product/tailg X51.png"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
+        "name": "Đen Đỏ",
+        "hex": "#8B0000",
         "image": "./assets/image/product/tailg X51.png"
       },
       {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Xanh Lá",
+        "hex": "#008000",
         "image": "./assets/image/product/tailg X51.png"
       }
     ],
@@ -123,7 +123,7 @@
       "Quãng đường": "75 - 80 Km",
       "Sạc": "6 - 8h",
       "Phanh": "Phanh đĩa trước và sau xe",
-      "Bình": "60 - 84V / 20 - 27Ah",
+      "Bình": "60 - 84V 20 - 27Ah",
       "Động cơ": "1800W"
     }
   },
@@ -135,18 +135,13 @@
     "category": "Tailg",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
+        "name": "Xám Nâu",
+        "hex": "#A39887",
         "image": "./assets/image/product/tailg f52.jpg"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
-        "image": "./assets/image/product/tailg f52.jpg"
-      },
-      {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Đỏ Đen",
+        "hex": "#8B0000",
         "image": "./assets/image/product/tailg f52.jpg"
       }
     ],
@@ -155,7 +150,7 @@
       "Quãng đường": "75 - 80 Km",
       "Sạc": "6 - 8h",
       "Phanh": "Phanh đĩa trước và sau xe",
-      "Bình": "60 - 84V / 20 - 27Ah",
+      "Bình": "60 - 84V 20 - 27Ah",
       "Động cơ": "1800W"
     }
   },
@@ -163,17 +158,12 @@
     "name": "CPI XMEN",
     "price": "16.000.000₫",
     "manufacturer": "Việt Nam",
-    "type": "Xe máy điện",
+    "type": "Xe đạp điện",
     "category": "CPI",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
-        "image": "./assets/image/product/cpi xmen.webp"
-      },
-      {
-        "name": "Trắng",
-        "hex": "#ffffff",
+        "name": "Xanh Dương",
+        "hex": "#1E90FF",
         "image": "./assets/image/product/cpi xmen.webp"
       },
       {
@@ -187,7 +177,7 @@
       "Quãng đường": "75 - 80 Km",
       "Sạc": "6 - 8h",
       "Phanh": "Phanh đĩa trước và sau xe",
-      "Bình": "60 - 84V / 20 - 27Ah",
+      "Bình": "60 - 84V 20 - 27Ah",
       "Động cơ": "1800W"
     }
   },
@@ -195,22 +185,12 @@
     "name": "X1",
     "price": "13.600.000₫",
     "manufacturer": "Việt Nam",
-    "type": "Xe máy điện",
+    "type": "Xe đạp điện",
     "category": "Yadea",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
-        "image": "./assets/image/product/x1-removebg-preview.png"
-      },
-      {
-        "name": "Trắng",
-        "hex": "#ffffff",
-        "image": "./assets/image/product/x1-removebg-preview.png"
-      },
-      {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Xám Đen",
+        "hex": "#4B4B4B",
         "image": "./assets/image/product/x1-removebg-preview.png"
       }
     ],
@@ -219,7 +199,7 @@
       "Quãng đường": "70 Km",
       "Sạc": "6 - 8h",
       "Phanh": "Phanh ABS",
-      "Bình": "60V / 16-27Ah",
+      "Bình": "60V 16-27Ah",
       "Động cơ": "1200W"
     }
   },
@@ -227,22 +207,37 @@
     "name": "AVA V1",
     "price": "12.500.000₫",
     "manufacturer": "Việt Nam, Trung Quốc",
-    "type": "Xe máy điện",
+    "type": "Xe đạp điện",
     "category": "AVA",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
+        "name": "Trắng Đen",
+        "hex": "#F0F0F0",
         "image": "./assets/image/product/AVA V1 .png"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
+        "name": "Đen Vàng",
+        "hex": "#6B5500",
         "image": "./assets/image/product/AVA V1 .png"
       },
       {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Trắng Tím",
+        "hex": "#E0E6FA",
+        "image": "./assets/image/product/AVA V1 .png"
+      },
+      {
+        "name": "Cam Sữa",
+        "hex": "#FFD8B1",
+        "image": "./assets/image/product/AVA V1 .png"
+      },
+      {
+        "name": "Đen Tím (Galaxy)",
+        "hex": "#3B0B5F",
+        "image": "./assets/image/product/AVA V1 .png"
+      },
+      {
+        "name": "Hồng Trắng",
+        "hex": "#FFB7C5",
         "image": "./assets/image/product/AVA V1 .png"
       }
     ],
@@ -251,7 +246,7 @@
       "Quãng đường": "70 Km",
       "Sạc": "6 - 8h",
       "Phanh": "Phanh đĩa trước và sau xe",
-      "Bình": "60V / 16-27Ah",
+      "Bình": "60V 16-27Ah",
       "Động cơ": "1200W"
     }
   },
@@ -259,22 +254,32 @@
     "name": "AZI SPORT",
     "price": "8.600.000₫",
     "manufacturer": "Việt Nam",
-    "type": "Xe máy điện",
+    "type": "Xe đạp điện",
     "category": "AZI",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
+        "name": "Hồng Neon",
+        "hex": "#FF007F",
         "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
+        "name": "Tím Galaxy",
+        "hex": "#4B0082",
         "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
       },
       {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Đỏ Rực",
+        "hex": "#FF0000",
+        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+      },
+      {
+        "name": "Xám Ánh Tím",
+        "hex": "#5D3FD3",
+        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+      },
+      {
+        "name": "Trắng Kim Loại",
+        "hex": "#E0E0E0",
         "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
       }
     ],
@@ -283,7 +288,7 @@
       "Quãng đường": "40 - 60Km",
       "Sạc": "6 - 8h",
       "Phanh": "Phanh đĩa trước và sau xe",
-      "Bình": "48 - 60V / 16 - 27Ah",
+      "Bình": "48 - 60V 16 - 27Ah",
       "Động cơ": "1000W"
     }
   },
@@ -291,22 +296,22 @@
     "name": "V3 PLUS",
     "price": "13.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
-    "type": "Xe máy điện",
+    "type": "Xe đạp điện",
     "category": "V3 PLUS",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
+        "name": "Trắng Sữa Vàng",
+        "hex": "#FFFACD",
         "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
+        "name": "Bạc",
+        "hex": "#C0C0C0",
         "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
       },
       {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Xám Lông Chuột",
+        "hex": "#A9A9A9",
         "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
       }
     ],
@@ -315,7 +320,7 @@
       "Quãng đường": "70 Km",
       "Sạc": "6 - 8h",
       "Phanh": "Phanh đĩa trước và sau xe",
-      "Bình": "60V / 16-27Ah",
+      "Bình": "60V 16-27Ah",
       "Động cơ": "1200W"
     }
   },
@@ -323,22 +328,22 @@
     "name": "MST",
     "price": "8.800.000₫",
     "manufacturer": "Việt Nam",
-    "type": "Xe máy điện",
+    "type": "Xe đạp điện",
     "category": "MST",
     "colors": [
       {
+        "name": "Xanh Dương",
+        "hex": "#1E90FF",
+        "image": "./assets/image/product/mst.png"
+      },
+      {
         "name": "Đỏ",
-        "hex": "#F5273C",
+        "hex": "#FF0000",
         "image": "./assets/image/product/mst.png"
       },
       {
-        "name": "Trắng",
-        "hex": "#ffffff",
-        "image": "./assets/image/product/mst.png"
-      },
-      {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Đen Bạc",
+        "hex": "#1C1C1C",
         "image": "./assets/image/product/mst.png"
       }
     ],
@@ -355,22 +360,12 @@
     "name": "TAILG GR55",
     "price": "13.900.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
-    "type": "Xe máy điện",
+    "type": "Xe đạp điện",
     "category": "TAILG",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
-        "image": "./assets/image/product/tailg-gr55.png"
-      },
-      {
-        "name": "Trắng",
-        "hex": "#ffffff",
-        "image": "./assets/image/product/tailg-gr55.png"
-      },
-      {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Xám Nhám",
+        "hex": "#696969",
         "image": "./assets/image/product/tailg-gr55.png"
       }
     ],
@@ -384,25 +379,30 @@
     }
   },
   {
-    "name": "Pusan Glk Plus",
+    "name": "Pusan GLK Plus",
     "price": "19.000.000₫",
     "manufacturer": "Việt Nam, Nhật",
     "type": "Xe máy điện",
     "category": "Pusan",
     "colors": [
       {
-        "name": "Đỏ",
-        "hex": "#F5273C",
-        "image": "./assets/image/product/Pusan GLK Plus.webp"
-      },
-      {
         "name": "Trắng",
-        "hex": "#ffffff",
+        "hex": "#FFFFFF",
         "image": "./assets/image/product/Pusan GLK Plus.webp"
       },
       {
-        "name": "Đen",
-        "hex": "#000000",
+        "name": "Đen Nhám",
+        "hex": "#1C1C1C",
+        "image": "./assets/image/product/Pusan GLK Plus.webp"
+      },
+      {
+        "name": "Xám Nhám",
+        "hex": "#696969",
+        "image": "./assets/image/product/Pusan GLK Plus.webp"
+      },
+      {
+        "name": "Tím Titan",
+        "hex": "#8A2BE2",
         "image": "./assets/image/product/Pusan GLK Plus.webp"
       }
     ],
