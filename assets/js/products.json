@@ -51,12 +51,12 @@
       {
         "name": "Đen Nhám",
         "hex": "#1C1C1C",
-        "image": "./assets/image/product/color/t71.jfif"
+        "image": "./assets/image/product/tailg-t71.png"
       },
       {
         "name": "Đỏ Bạc Xám",
         "hex": "#D9534F",
-        "image": "./assets/image/product/color/t71.jfif"
+        "image": "./assets/image/product/color/tailg-t71-dobacxam.jpg"
       }
     ],
     "specs": {
@@ -78,7 +78,7 @@
       {
         "name": "Hồng Phấn",
         "hex": "#FFC0CB",
-        "image": "./assets/image/product/color/tailg_r71.jpg"
+        "image": "./assets/image/product/tailg-r71.webp"
       },
       {
         "name": "Bạc",
@@ -110,7 +110,7 @@
       {
         "name": "Đen Đỏ",
         "hex": "#8B0000",
-        "image": "./assets/image/product/color/tailg_x51__en.png"
+        "image": "./assets/image/product/color/tailg-x51-do.webp"
       },
       {
         "name": "Xanh Lá",
@@ -137,7 +137,7 @@
       {
         "name": "Xám Nâu",
         "hex": "#A39887",
-        "image": "./assets/image/product/color/f52.png"
+        "image": "./assets/image/product/tailg f52.jpg "
       },
       {
         "name": "Đỏ Đen",
@@ -164,12 +164,12 @@
       {
         "name": "Xanh Dương",
         "hex": "#1E90FF",
-        "image": "./assets/image/product/color/cpi_xmen.jpg"
+        "image": "./assets/image/product/cpi xmen.webp"
       },
       {
         "name": "Đen",
         "hex": "#000000",
-        "image": "./assets/image/product/color/cpi_xmen.jpg"
+        "image": "./assets/image/product/color/xe-may-dien-xmen-cpi-den.jpg"
       }
     ],
     "specs": {
@@ -233,7 +233,7 @@
       {
         "name": "Đen Tím (Galaxy)",
         "hex": "#3B0B5F",
-        "image": "./assets/image/product/color/ava_v1_tim.png"
+        "image": "./assets/image/product/color/ava-v1-galaxy.jpg"
       },
       {
         "name": "Hồng Trắng",
