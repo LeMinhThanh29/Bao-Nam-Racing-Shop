@@ -74,7 +74,7 @@ async function loadProducts() {
       page: 12,
       pagination: true
     });
-    
+
     // Chặn nhảy lên đầu trang cho tất cả link pagination
     document.addEventListener('click', function (e) {
       // Kiểm tra nếu click vào link trong pagination
@@ -93,7 +93,6 @@ async function loadProducts() {
       tabsContainer.appendChild(tab);
     });
 
-
     // Tab filter: Tất cả / Xe máy điện / Xe đạp điện
     const tabs = document.querySelectorAll("#tabs .tab");
 
@@ -102,19 +101,22 @@ async function loadProducts() {
         tabs.forEach(t => t.classList.remove("active"));
         tab.classList.add("active");
 
-        const filterType = tab.dataset.filter;
-        const categoryVal = brandSelect.value; // giá trị dropdown hiện tại
+        const filterType = tab.dataset.filter.trim().toLowerCase(); // loại bỏ khoảng trắng, lowercase
+        const categoryVal = brandSelect.value.trim().toLowerCase(); // dropdown lowercase
 
         productList.filter(item => {
-          const itemType = item.values().type;
-          const itemCategory = item.values().category;
+          const itemType = item.values().type.trim().toLowerCase(); // lowercase
+          const itemCategory = item.values().category.trim().toLowerCase(); // lowercase
 
           if (filterType === "all") {
             return categoryVal === "" ? true : itemCategory === categoryVal;
           }
 
           // Kết hợp filter Type + Category
-          return itemType === filterType && (categoryVal === "" ? true : itemCategory === categoryVal);
+          return (
+            itemType === filterType &&
+            (categoryVal === "" ? true : itemCategory === categoryVal)
+          );
         });
       });
     });
@@ -122,12 +124,15 @@ async function loadProducts() {
     // Dropdown Hiệu xe luôn hiển thị và filter kết hợp tab active
     brandSelect.style.display = "inline-block";
     brandSelect.addEventListener("change", () => {
-      const val = brandSelect.value;
-      const activeTab = document.querySelector("#tabs .tab.active").dataset.filter;
+      const val = brandSelect.value.trim().toLowerCase();
+      const activeTab = document
+        .querySelector("#tabs .tab.active")
+        .dataset.filter.trim()
+        .toLowerCase();
 
       productList.filter(item => {
-        const itemType = item.values().type;
-        const itemCategory = item.values().category;
+        const itemType = item.values().type.trim().toLowerCase();
+        const itemCategory = item.values().category.trim().toLowerCase();
 
         if (activeTab === "all") return val === "" ? true : itemCategory === val;
 

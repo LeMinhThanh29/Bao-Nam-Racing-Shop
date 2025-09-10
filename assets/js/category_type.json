@@ -1,7 +1,20 @@
 {
-  "types": ["Xe máy điện", "Xe đạp điện"],
+  "types": [
+    "Xe máy điện",
+    "Xe đạp điện"
+  ],
   "categories": {
-    "Xe máy điện": ["Yadea", "Pusan", "Tailg", "MST", "AZI", "X1", "AVA"],
-    "Xe đạp điện": ["Asama", "Giant", "Bridgestone", "Sanyo"]
+    "Xe máy điện": [
+      "Tailg",
+      "Pusan",
+      "Lihaze"
+    ],
+    "Xe đạp điện": [
+      "AVA",
+      "AZI",
+      "YP",
+      "Detech",
+      "Việt Nam"
+    ]
   }
 }

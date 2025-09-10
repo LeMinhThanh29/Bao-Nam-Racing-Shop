@@ -4,7 +4,7 @@
     "price": "13.500.000₫",
     "manufacturer": "Trung Quốc",
     "type": "Xe máy điện",
-    "category": "Lihaze",
+    "category": "LIHAZE",
     "colors": [
       {
         "name": "Hồng nhạt",
@@ -46,7 +46,7 @@
     "price": "26.000.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
     "type": "Xe máy điện",
-    "category": "Tailg",
+    "category": "TAILG",
     "colors": [
       {
         "name": "Đen Nhám",
@@ -73,7 +73,7 @@
     "price": "20.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
     "type": "Xe máy điện",
-    "category": "Tailg",
+    "category": "TAILG",
     "colors": [
       {
         "name": "Hồng Phấn",
@@ -100,7 +100,7 @@
     "price": "16.000.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
     "type": "Xe đạp điện",
-    "category": "Tailg",
+    "category": "TAILG",
     "colors": [
       {
         "name": "Đen Bóng",
@@ -132,7 +132,7 @@
     "price": "20.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
     "type": "Xe máy điện",
-    "category": "Tailg",
+    "category": "TAILG",
     "colors": [
       {
         "name": "Xám Nâu",
@@ -159,7 +159,7 @@
     "price": "16.000.000₫",
     "manufacturer": "Việt Nam",
     "type": "Xe đạp điện",
-    "category": "CPI",
+    "category": "Detech",
     "colors": [
       {
         "name": "Xanh Dương",
@@ -186,7 +186,7 @@
     "price": "13.600.000₫",
     "manufacturer": "Việt Nam",
     "type": "Xe đạp điện",
-    "category": "Yadea",
+    "category": "Việt Nam",
     "colors": [
       {
         "name": "Xám Đen",
@@ -297,7 +297,7 @@
     "price": "13.600.000₫",
     "manufacturer": "Trung Quốc, Việt Nam",
     "type": "Xe đạp điện",
-    "category": "V3 PLUS",
+    "category": "YP",
     "colors": [
       {
         "name": "Trắng Sữa Vàng",
@@ -329,7 +329,7 @@
     "price": "8.800.000₫",
     "manufacturer": "Việt Nam",
     "type": "Xe đạp điện",
-    "category": "MST",
+    "category": "Việt Nam",
     "colors": [
       {
         "name": "Xanh Dương",
@@ -383,7 +383,7 @@
     "price": "19.000.000₫",
     "manufacturer": "Việt Nam, Nhật",
     "type": "Xe máy điện",
-    "category": "Pusan",
+    "category": "PUSAN",
     "colors": [
       {
         "name": "Trắng",
