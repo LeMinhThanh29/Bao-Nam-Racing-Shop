@@ -9,27 +9,27 @@
       {
         "name": "Hồng nhạt",
         "hex": "#F8C8DC",
-        "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
+        "image": "./assets/image/product/color/v1_ultra_hong.png"
       },
       {
         "name": "Đen vàng",
         "hex": "#000000 / #FFD700",
-        "image": "./assets/image/product/tailg-t71.png"
+        "image": "./assets/image/product/color/v1_ultra__en_vang.png"
       },
       {
         "name": "Vàng sữa",
         "hex": "#FFFFE0",
-        "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
+        "image": "./assets/image/product/color/v1_ultra_trang.png"
       },
       {
         "name": "Xám đen",
         "hex": "#36454F",
-        "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
+        "image": "./assets/image/product/color/v1_ultra_xam__en.png"
       },
       {
         "name": "Bạc đen",
         "hex": "#343434",
-        "image": "./assets/image/product/gen-n-V1 LIHAZE.jpg"
+        "image": "./assets/image/product/color/v1_ultra_bac.png"
       }
     ],
     "specs": {
@@ -51,12 +51,12 @@
       {
         "name": "Đen Nhám",
         "hex": "#1C1C1C",
-        "image": "./assets/image/product/tailg-t71.png"
+        "image": "./assets/image/product/color/t71.jfif"
       },
       {
         "name": "Đỏ Bạc Xám",
         "hex": "#D9534F",
-        "image": "./assets/image/product/tailg-t71.png"
+        "image": "./assets/image/product/color/t71.jfif"
       }
     ],
     "specs": {
@@ -78,12 +78,12 @@
       {
         "name": "Hồng Phấn",
         "hex": "#FFC0CB",
-        "image": "./assets/image/product/tailg-r71.webp"
+        "image": "./assets/image/product/color/tailg_r71.jpg"
       },
       {
         "name": "Bạc",
         "hex": "#C0C0C0",
-        "image": "./assets/image/product/tailg-r71.webp"
+        "image": "./assets/image/product/color/tailg_r71.jpg"
       }
     ],
     "specs": {
@@ -105,17 +105,17 @@
       {
         "name": "Đen Bóng",
         "hex": "#1C1C1C",
-        "image": "./assets/image/product/tailg X51.png"
+        "image": "./assets/image/product/color/tailg_x51__en.png"
       },
       {
         "name": "Đen Đỏ",
         "hex": "#8B0000",
-        "image": "./assets/image/product/tailg X51.png"
+        "image": "./assets/image/product/color/tailg_x51__en.png"
       },
       {
         "name": "Xanh Lá",
         "hex": "#008000",
-        "image": "./assets/image/product/tailg X51.png"
+        "image": "./assets/image/product/color/tailg_x51_green.png"
       }
     ],
     "specs": {
@@ -137,12 +137,12 @@
       {
         "name": "Xám Nâu",
         "hex": "#A39887",
-        "image": "./assets/image/product/tailg f52.jpg"
+        "image": "./assets/image/product/color/f52.png"
       },
       {
         "name": "Đỏ Đen",
         "hex": "#8B0000",
-        "image": "./assets/image/product/tailg f52.jpg"
+        "image": "./assets/image/product/color/f52.png"
       }
     ],
     "specs": {
@@ -164,12 +164,12 @@
       {
         "name": "Xanh Dương",
         "hex": "#1E90FF",
-        "image": "./assets/image/product/cpi xmen.webp"
+        "image": "./assets/image/product/color/cpi_xmen.jpg"
       },
       {
         "name": "Đen",
         "hex": "#000000",
-        "image": "./assets/image/product/cpi xmen.webp"
+        "image": "./assets/image/product/color/cpi_xmen.jpg"
       }
     ],
     "specs": {
@@ -191,7 +191,7 @@
       {
         "name": "Xám Đen",
         "hex": "#4B4B4B",
-        "image": "./assets/image/product/x1-removebg-preview.png"
+        "image": "./assets/image/product/color/x1_photoroom_1.png"
       }
     ],
     "specs": {
@@ -213,32 +213,32 @@
       {
         "name": "Trắng Đen",
         "hex": "#F0F0F0",
-        "image": "./assets/image/product/AVA V1 .png"
+        "image": "./assets/image/product/color/ava_v1_trang.png"
       },
       {
         "name": "Đen Vàng",
         "hex": "#6B5500",
-        "image": "./assets/image/product/AVA V1 .png"
+        "image": "./assets/image/product/color/ava_v1_.png"
       },
       {
         "name": "Trắng Tím",
         "hex": "#E0E6FA",
-        "image": "./assets/image/product/AVA V1 .png"
+        "image": "./assets/image/product/color/ava_v1_tim.png"
       },
       {
         "name": "Cam Sữa",
         "hex": "#FFD8B1",
-        "image": "./assets/image/product/AVA V1 .png"
+        "image": "./assets/image/product/color/ava_v1_trang_cam.png"
       },
       {
         "name": "Đen Tím (Galaxy)",
         "hex": "#3B0B5F",
-        "image": "./assets/image/product/AVA V1 .png"
+        "image": "./assets/image/product/color/ava_v1_tim.png"
       },
       {
         "name": "Hồng Trắng",
         "hex": "#FFB7C5",
-        "image": "./assets/image/product/AVA V1 .png"
+        "image": "./assets/image/product/color/ava_v1_hong.png"
       }
     ],
     "specs": {
@@ -260,27 +260,27 @@
       {
         "name": "Hồng Neon",
         "hex": "#FF007F",
-        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+        "image": "./assets/image/product/color/azi_sport_hong.png"
       },
       {
         "name": "Tím Galaxy",
         "hex": "#4B0082",
-        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+        "image": "./assets/image/product/color/azi_sport_tim.png"
       },
       {
         "name": "Đỏ Rực",
         "hex": "#FF0000",
-        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+        "image": "./assets/image/product/color/azi_sport__o.png"
       },
       {
         "name": "Xám Ánh Tím",
         "hex": "#5D3FD3",
-        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+        "image": "./assets/image/product/color/azi_sport__o.png"
       },
       {
         "name": "Trắng Kim Loại",
         "hex": "#E0E0E0",
-        "image": "./assets/image/product/azi_i1i1-removebg-preview.png"
+        "image": "./assets/image/product/color/azi_sport_trang.png"
       }
     ],
     "specs": {
@@ -302,17 +302,17 @@
       {
         "name": "Trắng Sữa Vàng",
         "hex": "#FFFACD",
-        "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
+        "image": "./assets/image/product/color/v3_plus_trang.png"
       },
       {
         "name": "Bạc",
         "hex": "#C0C0C0",
-        "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
+        "image": "./assets/image/product/color/v3_plus_bac.png"
       },
       {
         "name": "Xám Lông Chuột",
         "hex": "#A9A9A9",
-        "image": "./assets/image/product/gen-h-V3PLUS-removebg-preview.png"
+        "image": "./assets/image/product/color/v3_plus_xam.png"
       }
     ],
     "specs": {
@@ -334,17 +334,17 @@
       {
         "name": "Xanh Dương",
         "hex": "#1E90FF",
-        "image": "./assets/image/product/mst.png"
+        "image": "./assets/image/product/color/mst_xanh_duong.png"
       },
       {
         "name": "Đỏ",
         "hex": "#FF0000",
-        "image": "./assets/image/product/mst.png"
+        "image": "./assets/image/product/color/mst__o__en.png"
       },
       {
         "name": "Đen Bạc",
         "hex": "#1C1C1C",
-        "image": "./assets/image/product/mst.png"
+        "image": "./assets/image/product/color/mst__o__en.png"
       }
     ],
     "specs": {
@@ -366,7 +366,7 @@
       {
         "name": "Xám Nhám",
         "hex": "#696969",
-        "image": "./assets/image/product/tailg-gr55.png"
+        "image": "./assets/image/product/color/tailg_gr55.jpg"
       }
     ],
     "specs": {
@@ -388,22 +388,22 @@
       {
         "name": "Trắng",
         "hex": "#FFFFFF",
-        "image": "./assets/image/product/Pusan GLK Plus.webp"
+        "image": "./assets/image/product/color/pusan_glk_plus_trang.png"
       },
       {
         "name": "Đen Nhám",
         "hex": "#1C1C1C",
-        "image": "./assets/image/product/Pusan GLK Plus.webp"
+        "image": "./assets/image/product/color/pusan_glk_plus__en.png"
       },
       {
         "name": "Xám Nhám",
         "hex": "#696969",
-        "image": "./assets/image/product/Pusan GLK Plus.webp"
+        "image": "./assets/image/product/color/pusan_glk_plus_xam_nham.png"
       },
       {
         "name": "Tím Titan",
         "hex": "#8A2BE2",
-        "image": "./assets/image/product/Pusan GLK Plus.webp"
+        "image": "./assets/image/product/color/pusan_glk_plus_tim_titan.png"
       }
     ],
     "specs": {
