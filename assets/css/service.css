@@ -1,0 +1,56 @@
+/* Container */
+.services {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Mobile: 1 cột */
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+/* Item */
+.service {
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+    color: #374151;
+    align-items: center;
+}
+
+
+#serviceList img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    /* ảnh luôn lấp đầy */
+    border-radius: 8px;
+    display: block;
+}
+
+/* Icon tròn - fix lệch */
+.service-icon {
+    width: 40px;
+    height: 40px;
+    background: #FEF3C7;
+    /* vàng nhạt */
+    color: #D97706;
+    /* vàng đậm */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    flex-shrink: 0;
+    /* không co lại */
+    line-height: 1;
+    /* chống lệch chữ */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive mobile */
+@media (max-width: 640px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}

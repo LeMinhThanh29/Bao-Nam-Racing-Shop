@@ -4,18 +4,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bảo Nam Racing Shop | Xe Điện Yadea – Tiết kiệm • Thời thượng • Xanh sạch</title>
+  <title>Bảo Nam Racing Shop | Xe Điện – Tiết kiệm • Thời thượng • Xanh sạch</title>
   <meta name="description"
-    content="Landing page xe máy điện & xe đạp điện Yadea tại Bảo Nam Racing Shop: lái thử miễn phí, ưu đãi đặt cọc sớm, bảo hành dài, sạc nhanh." />
+    content="Landing page xe máy điện & xe đạp điện tại Bảo Nam Racing Shop: lái thử miễn phí, ưu đãi đặt cọc sớm, bảo hành dài, sạc nhanh." />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Bảo Nam Racing Shop | Xe Điện Yadea" />
+  <meta property="og:title" content="Bảo Nam Racing Shop | Xe Điện" />
   <meta property="og:description" content="Lái thử miễn phí • Ưu đãi đặt sớm • Bảo hành dài hạn" />
   <meta property="og:image" content="./assets/image/icon/logo-racingshop.png" />
   <meta name="theme-color" content="#fbbf24" />
   <link rel="icon" href="./assets/image/icon/logo-racingshop.png" />
-  <link rel="preconnect" href="https://www.yadea.com.vn" crossorigin>
   <link rel="stylesheet" href="assets/css/filter.css">
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/service.css">
   <link rel="stylesheet" href="assets/css/product.css" />
   <link rel="stylesheet" href="assets/css/button.css" />
   <link rel="stylesheet" href="assets/css/review.css" />
@@ -27,6 +27,7 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- List.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+  <script src="assets/js/service.js" defer></script>
   <script src="assets/js/products.js" defer></script>
   <script src="assets/js/feedback.js" defer></script>
   <script src="assets/js/banner.js" defer></script>
@@ -63,7 +64,7 @@
   <section class="hero-service" id="top" aria-label="Giới thiệu" data-aos="fade-down">
     <div class="wrap">
       <div class="hero-ice-copy">
-        <span class="badge">Lái thử miễn phí <b class="ok">• Giao xe 24–72h</b></span>
+        <span class="badge">Lái thử miễn phí <b class="ok">• Giao xe trong ngày</b></span>
         <h1>Xe điện thế hệ mới <br><span>Tiết kiệm</span>- <span>Thời thượng</span>- <span>Xanh sạch</span></h1>
         <p>Giải pháp di chuyển thông minh cho đô thị Việt. Quãng đường đến <b>40-120km</b> mỗi lần sạc, sạc nhanh
           <b>4–6 giờ</b>, bảo hành <b>18 tháng</b>. Đặt lịch lái thử ngay để cảm nhận sự khác biệt.
@@ -346,6 +347,62 @@
   </section>
 
   <!-- Trust / Policy -->
+  <!-- Section đào tạo lái xe -->
+  <section id="dao-tao" class="container my-12">
+    <div class="section-title text-center mb-8">
+      <img src="./assets/image/icon/logo-racingshop.png" alt="" data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+      <h2>Nhận đào tạo lái xe từ xe máy đến ô tô</h2>
+      <div class="content text-gray-700 mt-2">
+        Nhận đào tạo các hạng A1, A, BCK, BTĐ, C1. Cấp đổi GPLX hết hạn hoặc hỏng. Học viên được trải nghiệm sân tập
+        đời mới, bãi xe đạt chuẩn, giáo viên tận tâm với thủ tục đơn giản và ưu đãi học phí.
+      </div>
+    </div>
+
+    <div class="promo card aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <!-- Left: Text / List -->
+      <div class="card promo-left bg-white rounded-2xl p-6 shadow flex-1 bg-white p-6 rounded-2xl shadow">
+        <h2 class="text-3xl font-bold mb-4">Dịch Vụ Chúng Tôi Cung Cấp</h2>
+        <div class="services">
+          <div class="service">
+            <div class="service-icon">A1</div>
+            <span>Đào tạo hạng A1, A, BCK, BTĐ, C1</span>
+          </div>
+
+          <div class="service">
+            <div class="service-icon">📝</div>
+            <span>Cấp đổi GPLX hết hạn, hỏng</span>
+          </div>
+
+          <div class="service">
+            <div class="service-icon">🏫</div>
+            <span>Sân tập đời mới, bãi xe đạt chuẩn</span>
+          </div>
+
+          <div class="service">
+            <div class="service-icon">💰</div>
+            <span>Học phí ưu đãi, thủ tục đơn giản</span>
+          </div>
+
+          <div class="service">
+            <div class="service-icon">⏰</div>
+            <span>Giờ giấc linh hoạt, giáo viên tận tâm</span>
+          </div>
+
+          <div class="service">
+            <div class="service-icon">✔️</div>
+            <span>Miễn phí lệ phí thi, khám sức khỏe, xe đưa đón đi thi</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Image -->
+        <div id="service-carousel" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list" id="serviceList"></ul>
+          </div>
+        </div>
+  </section>
 
   <!-- FAQ -->
   <section class="container" id="faq">
