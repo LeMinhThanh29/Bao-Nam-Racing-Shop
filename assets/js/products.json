@@ -414,5 +414,37 @@
       "Bình": "60V27Ah",
       "Động cơ": "1400W"
     }
+  },
+  {
+    "name": "VESPA ZEVO",
+    "price": "13.600.000₫",
+    "manufacturer": "Trung Quốc",
+    "type": "Xe đạp điện",
+    "category": "ZEVO",
+    "colors": [
+      {
+        "name": "Xanh nhạt",
+        "hex": "#ADD8E6",
+        "image": "./assets/image/product/color/VESPA_ZEVO.png"
+      },
+      {
+        "name": "Hồng",
+        "hex": "#FFC0CB",
+        "image": "./assets/image/product/color/VESPA_ZEVO.png"
+      },
+      {
+        "name": "Bạc",
+        "hex": "#C0C0C0",
+        "image": "./assets/image/product/color/VESPA_ZEVO.png"
+      }
+    ],
+    "specs": {
+      "Tốc độ": "72 Km",
+      "Quãng đường": "75 - 80 Km",
+      "Sạc": "8 - 10h",
+      "Phanh": "Phanh đĩa trước và sau xe",
+      "Bình": "60V",
+      "Động cơ": "1400W"
+    }
   }
 ]
