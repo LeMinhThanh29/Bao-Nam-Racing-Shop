@@ -1,5 +1,69 @@
 [
   {
+    "name": "VIN 1",
+    "price": "14.200.000₫",
+    "manufacturer": "TQ, VN",
+    "type": "Xe điện",
+    "category": "VIN",
+    "colors": [
+      {
+        "name": "Hồng",
+        "hex": "#FFC0CB",
+        "image": "./assets/image/product/color/Vin1_hong.png"
+      },
+      {
+        "name": "Kem",
+        "hex": "#F5F5DC",
+        "image": "./assets/image/product/color/Vin1_hong.png"
+      },
+      {
+        "name": "Xám",
+        "hex": "#C0C0C0",
+        "image": "./assets/image/product/color/Vin1_hong.png"
+      }
+    ],
+    "specs": {
+      "Tốc độ": "70 Km",
+      "Quãng đường": "80-90 Km",
+      "Sạc": "8h-10h",
+      "Phanh": "ABS",
+      "Bình": "12V27Ah",
+      "Động cơ": "1400W"
+    }
+  },
+  {
+    "name": "VESPA ZEVO",
+    "price": "13.200.000₫",
+    "manufacturer": "Trung Quốc",
+    "type": "Xe đạp điện",
+    "category": "ZEVO",
+    "colors": [
+      {
+        "name": "Xanh nhạt",
+        "hex": "#ADD8E6",
+        "image": "./assets/image/product/color/ZEVO_Xanh.png"
+      },
+      {
+        "name": "Hồng",
+        "hex": "#FFC0CB",
+        "image": "./assets/image/product/color/VESPA_ZEVO.png"
+      },
+      {
+        "name": "Bạc",
+        "hex": "#C0C0C0",
+        "image": "./assets/image/product/color/ZEVO_Bac.jpg"
+      }
+    ],
+    "specs": {
+      "Tốc độ": "70 Km",
+      "Quãng đường": "80 - 90 Km",
+      "Sạc": "8 - 10h",
+      "Phanh": "Phanh đĩa trước và sau xe",
+      "Bình": "12V27AH",
+      "Động cơ": "1400W"
+    }
+  },
+  {
     "name": "LIHAZE V1 Ultra",
     "price": "13.500.000₫",
     "manufacturer": "Trung Quốc",
@@ -412,38 +476,6 @@
       "Sạc": "8 - 10h",
       "Phanh": "Phanh đĩa trước và sau xe",
       "Bình": "60V27Ah",
-      "Động cơ": "1400W"
-    }
-  },
-  {
-    "name": "VESPA ZEVO",
-    "price": "13.600.000₫",
-    "manufacturer": "Trung Quốc",
-    "type": "Xe đạp điện",
-    "category": "ZEVO",
-    "colors": [
-      {
-        "name": "Xanh nhạt",
-        "hex": "#ADD8E6",
-        "image": "./assets/image/product/color/VESPA_ZEVO.png"
-      },
-      {
-        "name": "Hồng",
-        "hex": "#FFC0CB",
-        "image": "./assets/image/product/color/VESPA_ZEVO.png"
-      },
-      {
-        "name": "Bạc",
-        "hex": "#C0C0C0",
-        "image": "./assets/image/product/color/VESPA_ZEVO.png"
-      }
-    ],
-    "specs": {
-      "Tốc độ": "72 Km",
-      "Quãng đường": "75 - 80 Km",
-      "Sạc": "8 - 10h",
-      "Phanh": "Phanh đĩa trước và sau xe",
-      "Bình": "60V",
       "Động cơ": "1400W"
     }
   }

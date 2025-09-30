@@ -21,6 +21,7 @@ async function loadProducts() {
       brandSelect.appendChild(option);
     });
 
+
     // Render products với card chi tiết
     products.forEach(product => {
       const productHTML = `
@@ -75,12 +76,10 @@ async function loadProducts() {
       pagination: true
     });
 
-    // Chặn nhảy lên đầu trang cho tất cả link pagination
-    document.addEventListener('click', function (e) {
-      // Kiểm tra nếu click vào link trong pagination
-      if (e.target.closest('a')) {
-        e.preventDefault(); // chặn default behavior
-      }
+    document.querySelector('.pagination').addEventListener('click', function (e) {
+      const link = e.target.closest('a');
+      if (!link) return;
+      e.preventDefault();
     });
 
     // Tạo tab tự động từ types
